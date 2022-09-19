@@ -1,0 +1,38 @@
+*{
+    font-family: "Roboto-Regular", sans-serif, helvetica;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+    padding: none;
+}
+
+.links > ul {
+    display: flex;
+    gap: 10px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
