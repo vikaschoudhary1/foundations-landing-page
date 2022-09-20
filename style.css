@@ -61,7 +61,7 @@ ul{
 }
 
 .hero > p {
-    font-size: 18px;
+    font-size: 15px;
     color: #e5e7eb;
     margin: 0;
 }
@@ -72,7 +72,7 @@ ul{
 
 .hero-image{
     flex: 0 0 auto;
-    width: 500px;
+    width: 450px;
     height: 200px;
     background-color: #818c92;
     display: flex;
@@ -82,10 +82,10 @@ ul{
 
 .hero > button {
     background-color: #3882f6;
-    padding: 8px 30px;
+    font-size: 15px;
+    padding: 7px 28px;
     border-radius: 8px;
     color: #f9faf8;
-    font-size: large;
     font-weight: 600;
     border: none;
 }
@@ -94,7 +94,9 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 40px 100px 100px 100px;
+    gap: 20px;
+    
 }
 
 .section2 > h2 {
@@ -126,7 +128,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 200px;
+    padding: 120px 300px;
 }
 
 .section3 > p:first-child {
@@ -179,4 +181,16 @@ ul{
     padding: 5px 30px;
     border-radius: 8px;
     align-self: center;
+}
+
+.footer {
+    align-self: stretch;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > p {
+    color: #f9faf8;
+    padding: 15px;
 }
