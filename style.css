@@ -83,7 +83,7 @@ ul{
 .hero > button {
     background-color: #3882f6;
     padding: 8px 30px;
-    border-radius: 10px;
+    border-radius: 8px;
     color: #f9faf8;
     font-size: large;
     font-weight: 600;
@@ -142,4 +142,41 @@ ul{
     font-size: 24px;
     font-weight: bold;
     margin: 0 50px;
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 40px 100px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+/* .section4 > div {
+    display: flex;
+    flex-direction: column;
+} */
+
+.section4 > div > p:first-child {
+    margin: 0;
+    color:#f9faf8;
+    font-size: 24px;
+}
+
+.section4 > div > p:last-child {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.section4 > button {
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+    background-color: transparent;
+    padding: 5px 30px;
+    border-radius: 8px;
+    align-self: center;
 }
