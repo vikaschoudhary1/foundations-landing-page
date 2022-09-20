@@ -13,7 +13,7 @@ body{
     justify-content: space-between;
     background-color: #1f2937;
     align-items: center;
-    padding: 10px;
+    padding: 0 200px;
 }
 
 a{
@@ -29,10 +29,63 @@ ul{
 
 .links > ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .logo{
     font-size: 24px;
     color: #f9faf8;
+}
+
+.section1{
+    display: flex;
+    background-color: #1f2937;
+    padding: 50px 200px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.hero > h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hero > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+/* .hero > button {
+    flex: 0 1 0;
+} */
+
+.hero-image{
+    flex: 0 0 auto;
+    width: 500px;
+    height: 200px;
+    background-color: #818c92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > button {
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: large;
+    font-weight: 600;
+    border: none;
 }
