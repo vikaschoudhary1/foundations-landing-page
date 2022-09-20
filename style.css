@@ -1,5 +1,5 @@
 *{
-    font-family: "Roboto-Regular", sans-serif, helvetica;
+    font-family: "Roboto-Regular", helvetica, sans-serif;
 }
 
 body{
@@ -119,4 +119,27 @@ ul{
     border: 5px solid #3882f6;
     border-radius: 20px;
     box-sizing: border-box;
+}
+
+.section3{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 200px;
+}
+
+.section3 > p:first-child {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+}
+
+.section3 > p:last-child {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 50px;
 }
